@@ -1,0 +1,569 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.arvind.astreamchatapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\HP\Downloads\AStreamChatApp-master\AStreamChatApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\HP\Downloads\AStreamChatApp-master\AStreamChatApp\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\HP\Downloads\AStreamChatApp-master\AStreamChatApp\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\HP\Downloads\AStreamChatApp-master\AStreamChatApp\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[io.getstream:stream-chat-android-ui-components:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\3dd1f90a7b677039e03d1b91e0a6654d\transformed\jetified-stream-chat-android-ui-components-4.13.0\AndroidManifest.xml:10:5-79
+12-->[io.getstream:stream-chat-android-ui-components:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\3dd1f90a7b677039e03d1b91e0a6654d\transformed\jetified-stream-chat-android-ui-components-4.13.0\AndroidManifest.xml:10:22-76
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->[io.getstream:stream-chat-android-ui-components:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\3dd1f90a7b677039e03d1b91e0a6654d\transformed\jetified-stream-chat-android-ui-components-4.13.0\AndroidManifest.xml:11:5-80
+13-->[io.getstream:stream-chat-android-ui-components:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\3dd1f90a7b677039e03d1b91e0a6654d\transformed\jetified-stream-chat-android-ui-components-4.13.0\AndroidManifest.xml:11:22-77
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->[io.getstream:stream-chat-android-ui-components:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\3dd1f90a7b677039e03d1b91e0a6654d\transformed\jetified-stream-chat-android-ui-components-4.13.0\AndroidManifest.xml:12:5-81
+14-->[io.getstream:stream-chat-android-ui-components:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\3dd1f90a7b677039e03d1b91e0a6654d\transformed\jetified-stream-chat-android-ui-components-4.13.0\AndroidManifest.xml:12:22-78
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->[io.getstream:stream-chat-android-ui-components:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\3dd1f90a7b677039e03d1b91e0a6654d\transformed\jetified-stream-chat-android-ui-components-4.13.0\AndroidManifest.xml:13:5-65
+15-->[io.getstream:stream-chat-android-ui-components:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\3dd1f90a7b677039e03d1b91e0a6654d\transformed\jetified-stream-chat-android-ui-components-4.13.0\AndroidManifest.xml:13:22-62
+16    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+16-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\2fc657eb11c1fcaf30c85f1df4de1f53\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:23:5-68
+16-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\2fc657eb11c1fcaf30c85f1df4de1f53\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:23:22-65
+17    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+17-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\2fc657eb11c1fcaf30c85f1df4de1f53\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:25:5-82
+17-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\2fc657eb11c1fcaf30c85f1df4de1f53\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:25:22-79
+18
+19    <queries>
+19-->[androidx.media:media:1.3.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\27f5abe7a1fecb765311ac5f2097d5ee\transformed\media-1.3.0\AndroidManifest.xml:24:5-28:15
+20        <intent>
+20-->[androidx.media:media:1.3.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\27f5abe7a1fecb765311ac5f2097d5ee\transformed\media-1.3.0\AndroidManifest.xml:25:9-27:18
+21            <action android:name="android.media.browse.MediaBrowserService" />
+21-->[androidx.media:media:1.3.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\27f5abe7a1fecb765311ac5f2097d5ee\transformed\media-1.3.0\AndroidManifest.xml:26:13-79
+21-->[androidx.media:media:1.3.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\27f5abe7a1fecb765311ac5f2097d5ee\transformed\media-1.3.0\AndroidManifest.xml:26:21-76
+22        </intent>
+23    </queries>
+24
+25    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+25-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:27:5-81
+25-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:27:22-78
+26    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+26-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:28:5-77
+26-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:28:22-74
+27
+28    <permission
+28-->[androidx.core:core:1.9.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\9688fd0f4cdd4253a8cc30277f615ba3\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+29        android:name="com.arvind.astreamchatapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+29-->[androidx.core:core:1.9.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\9688fd0f4cdd4253a8cc30277f615ba3\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+30        android:protectionLevel="signature" />
+30-->[androidx.core:core:1.9.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\9688fd0f4cdd4253a8cc30277f615ba3\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+31
+32    <uses-permission android:name="com.arvind.astreamchatapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+32-->[androidx.core:core:1.9.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\9688fd0f4cdd4253a8cc30277f615ba3\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+32-->[androidx.core:core:1.9.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\9688fd0f4cdd4253a8cc30277f615ba3\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+33
+34    <application
+34-->C:\Users\HP\Downloads\AStreamChatApp-master\AStreamChatApp\app\src\main\AndroidManifest.xml:7:5-32:19
+35        android:name="com.arvind.astreamchatapp.app.AStreamChatApp"
+35-->C:\Users\HP\Downloads\AStreamChatApp-master\AStreamChatApp\app\src\main\AndroidManifest.xml:8:9-43
+36        android:allowBackup="true"
+36-->C:\Users\HP\Downloads\AStreamChatApp-master\AStreamChatApp\app\src\main\AndroidManifest.xml:9:9-35
+37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+37-->[androidx.core:core:1.9.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\9688fd0f4cdd4253a8cc30277f615ba3\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+38        android:dataExtractionRules="@xml/data_extraction_rules"
+38-->C:\Users\HP\Downloads\AStreamChatApp-master\AStreamChatApp\app\src\main\AndroidManifest.xml:10:9-65
+39        android:debuggable="true"
+40        android:fullBackupContent="@xml/backup_rules"
+40-->C:\Users\HP\Downloads\AStreamChatApp-master\AStreamChatApp\app\src\main\AndroidManifest.xml:11:9-54
+41        android:icon="@mipmap/ic_launcher"
+41-->C:\Users\HP\Downloads\AStreamChatApp-master\AStreamChatApp\app\src\main\AndroidManifest.xml:12:9-43
+42        android:label="@string/app_name"
+42-->C:\Users\HP\Downloads\AStreamChatApp-master\AStreamChatApp\app\src\main\AndroidManifest.xml:13:9-41
+43        android:roundIcon="@mipmap/ic_launcher_round"
+43-->C:\Users\HP\Downloads\AStreamChatApp-master\AStreamChatApp\app\src\main\AndroidManifest.xml:14:9-54
+44        android:supportsRtl="true"
+44-->C:\Users\HP\Downloads\AStreamChatApp-master\AStreamChatApp\app\src\main\AndroidManifest.xml:15:9-35
+45        android:testOnly="true"
+46        android:theme="@style/Theme.AStreamChatApp" >
+46-->C:\Users\HP\Downloads\AStreamChatApp-master\AStreamChatApp\app\src\main\AndroidManifest.xml:16:9-52
+47        <activity
+47-->C:\Users\HP\Downloads\AStreamChatApp-master\AStreamChatApp\app\src\main\AndroidManifest.xml:18:9-31:20
+48            android:name="com.arvind.astreamchatapp.view.main.MainActivity"
+48-->C:\Users\HP\Downloads\AStreamChatApp-master\AStreamChatApp\app\src\main\AndroidManifest.xml:19:13-51
+49            android:exported="true"
+49-->C:\Users\HP\Downloads\AStreamChatApp-master\AStreamChatApp\app\src\main\AndroidManifest.xml:20:13-36
+50            android:windowSoftInputMode="adjustResize" >
+50-->C:\Users\HP\Downloads\AStreamChatApp-master\AStreamChatApp\app\src\main\AndroidManifest.xml:21:13-55
+51            <intent-filter>
+51-->C:\Users\HP\Downloads\AStreamChatApp-master\AStreamChatApp\app\src\main\AndroidManifest.xml:22:13-26:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->C:\Users\HP\Downloads\AStreamChatApp-master\AStreamChatApp\app\src\main\AndroidManifest.xml:23:17-69
+52-->C:\Users\HP\Downloads\AStreamChatApp-master\AStreamChatApp\app\src\main\AndroidManifest.xml:23:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->C:\Users\HP\Downloads\AStreamChatApp-master\AStreamChatApp\app\src\main\AndroidManifest.xml:25:17-77
+54-->C:\Users\HP\Downloads\AStreamChatApp-master\AStreamChatApp\app\src\main\AndroidManifest.xml:25:27-74
+55            </intent-filter>
+56
+57            <meta-data
+57-->C:\Users\HP\Downloads\AStreamChatApp-master\AStreamChatApp\app\src\main\AndroidManifest.xml:28:13-30:36
+58                android:name="android.app.lib_name"
+58-->C:\Users\HP\Downloads\AStreamChatApp-master\AStreamChatApp\app\src\main\AndroidManifest.xml:29:17-52
+59                android:value="" />
+59-->C:\Users\HP\Downloads\AStreamChatApp-master\AStreamChatApp\app\src\main\AndroidManifest.xml:30:17-33
+60        </activity>
+61
+62        <provider
+62-->[io.getstream:stream-chat-android-ui-components:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\3dd1f90a7b677039e03d1b91e0a6654d\transformed\jetified-stream-chat-android-ui-components-4.13.0\AndroidManifest.xml:16:9-27:20
+63            android:name="androidx.startup.InitializationProvider"
+63-->[io.getstream:stream-chat-android-ui-components:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\3dd1f90a7b677039e03d1b91e0a6654d\transformed\jetified-stream-chat-android-ui-components-4.13.0\AndroidManifest.xml:17:13-67
+64            android:authorities="com.arvind.astreamchatapp.androidx-startup"
+64-->[io.getstream:stream-chat-android-ui-components:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\3dd1f90a7b677039e03d1b91e0a6654d\transformed\jetified-stream-chat-android-ui-components-4.13.0\AndroidManifest.xml:18:13-68
+65            android:exported="false" >
+65-->[io.getstream:stream-chat-android-ui-components:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\3dd1f90a7b677039e03d1b91e0a6654d\transformed\jetified-stream-chat-android-ui-components-4.13.0\AndroidManifest.xml:19:13-37
+66            <meta-data
+66-->[io.getstream:stream-chat-android-ui-components:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\3dd1f90a7b677039e03d1b91e0a6654d\transformed\jetified-stream-chat-android-ui-components-4.13.0\AndroidManifest.xml:21:13-23:52
+67                android:name="io.getstream.chat.android.ui.common.internal.ChatUIInitializer"
+67-->[io.getstream:stream-chat-android-ui-components:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\3dd1f90a7b677039e03d1b91e0a6654d\transformed\jetified-stream-chat-android-ui-components-4.13.0\AndroidManifest.xml:22:17-94
+68                android:value="androidx.startup" />
+68-->[io.getstream:stream-chat-android-ui-components:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\3dd1f90a7b677039e03d1b91e0a6654d\transformed\jetified-stream-chat-android-ui-components-4.13.0\AndroidManifest.xml:23:17-49
+69            <meta-data
+69-->[io.getstream:stream-chat-android-ui-components:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\3dd1f90a7b677039e03d1b91e0a6654d\transformed\jetified-stream-chat-android-ui-components-4.13.0\AndroidManifest.xml:24:13-26:52
+70                android:name="io.getstream.chat.android.ui.common.internal.ImageLoaderFactoryInitializer"
+70-->[io.getstream:stream-chat-android-ui-components:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\3dd1f90a7b677039e03d1b91e0a6654d\transformed\jetified-stream-chat-android-ui-components-4.13.0\AndroidManifest.xml:25:17-106
+71                android:value="androidx.startup" />
+71-->[io.getstream:stream-chat-android-ui-components:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\3dd1f90a7b677039e03d1b91e0a6654d\transformed\jetified-stream-chat-android-ui-components-4.13.0\AndroidManifest.xml:26:17-49
+72            <meta-data
+72-->[io.getstream:stream-chat-android-ui-common:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\ea23b1601ba04192f30d63bb17e3a643\transformed\jetified-stream-chat-android-ui-common-4.13.0\AndroidManifest.xml:29:13-31:52
+73                android:name="com.getstream.sdk.chat.startup.ThreeTenInitializer"
+73-->[io.getstream:stream-chat-android-ui-common:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\ea23b1601ba04192f30d63bb17e3a643\transformed\jetified-stream-chat-android-ui-common-4.13.0\AndroidManifest.xml:30:17-82
+74                android:value="androidx.startup" />
+74-->[io.getstream:stream-chat-android-ui-common:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\ea23b1601ba04192f30d63bb17e3a643\transformed\jetified-stream-chat-android-ui-common-4.13.0\AndroidManifest.xml:31:17-49
+75            <meta-data
+75-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\5458e9cb2bd537cf6738f8e16e043c76\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+76                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+76-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\5458e9cb2bd537cf6738f8e16e043c76\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+77                android:value="androidx.startup" />
+77-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\5458e9cb2bd537cf6738f8e16e043c76\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+78            <meta-data
+78-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\2dc2bce8620539a697d39a576ff14a86\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+79                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+79-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\2dc2bce8620539a697d39a576ff14a86\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+80                android:value="androidx.startup" />
+80-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\2dc2bce8620539a697d39a576ff14a86\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+81        </provider>
+82
+83        <activity
+83-->[io.getstream:stream-chat-android-ui-components:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\3dd1f90a7b677039e03d1b91e0a6654d\transformed\jetified-stream-chat-android-ui-components-4.13.0\AndroidManifest.xml:29:9-31:77
+84            android:name="io.getstream.chat.android.ui.gallery.AttachmentGalleryActivity"
+84-->[io.getstream:stream-chat-android-ui-components:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\3dd1f90a7b677039e03d1b91e0a6654d\transformed\jetified-stream-chat-android-ui-components-4.13.0\AndroidManifest.xml:30:13-90
+85            android:theme="@style/StreamUiAttachmentGalleryActivityStyle" />
+85-->[io.getstream:stream-chat-android-ui-components:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\3dd1f90a7b677039e03d1b91e0a6654d\transformed\jetified-stream-chat-android-ui-components-4.13.0\AndroidManifest.xml:31:13-74
+86        <activity
+86-->[io.getstream:stream-chat-android-ui-components:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\3dd1f90a7b677039e03d1b91e0a6654d\transformed\jetified-stream-chat-android-ui-components-4.13.0\AndroidManifest.xml:32:9-34:75
+87            android:name="io.getstream.chat.android.ui.gallery.AttachmentMediaActivity"
+87-->[io.getstream:stream-chat-android-ui-components:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\3dd1f90a7b677039e03d1b91e0a6654d\transformed\jetified-stream-chat-android-ui-components-4.13.0\AndroidManifest.xml:33:13-88
+88            android:theme="@style/StreamUiAttachmentMediaActivityStyle" />
+88-->[io.getstream:stream-chat-android-ui-components:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\3dd1f90a7b677039e03d1b91e0a6654d\transformed\jetified-stream-chat-android-ui-components-4.13.0\AndroidManifest.xml:34:13-72
+89        <activity
+89-->[io.getstream:stream-chat-android-ui-components:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\3dd1f90a7b677039e03d1b91e0a6654d\transformed\jetified-stream-chat-android-ui-components-4.13.0\AndroidManifest.xml:35:9-37:70
+90            android:name="io.getstream.chat.android.ui.gallery.AttachmentActivity"
+90-->[io.getstream:stream-chat-android-ui-components:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\3dd1f90a7b677039e03d1b91e0a6654d\transformed\jetified-stream-chat-android-ui-components-4.13.0\AndroidManifest.xml:36:13-83
+91            android:theme="@style/StreamUiAttachmentActivityStyle" />
+91-->[io.getstream:stream-chat-android-ui-components:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\3dd1f90a7b677039e03d1b91e0a6654d\transformed\jetified-stream-chat-android-ui-components-4.13.0\AndroidManifest.xml:37:13-67
+92        <activity android:name="com.getstream.sdk.chat.view.activity.AttachmentMediaActivity" />
+92-->[io.getstream:stream-chat-android-ui-common:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\ea23b1601ba04192f30d63bb17e3a643\transformed\jetified-stream-chat-android-ui-common-4.13.0\AndroidManifest.xml:11:9-97
+92-->[io.getstream:stream-chat-android-ui-common:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\ea23b1601ba04192f30d63bb17e3a643\transformed\jetified-stream-chat-android-ui-common-4.13.0\AndroidManifest.xml:11:19-94
+93        <activity android:name="com.getstream.sdk.chat.view.activity.AttachmentDocumentActivity" />
+93-->[io.getstream:stream-chat-android-ui-common:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\ea23b1601ba04192f30d63bb17e3a643\transformed\jetified-stream-chat-android-ui-common-4.13.0\AndroidManifest.xml:12:9-100
+93-->[io.getstream:stream-chat-android-ui-common:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\ea23b1601ba04192f30d63bb17e3a643\transformed\jetified-stream-chat-android-ui-common-4.13.0\AndroidManifest.xml:12:19-97
+94        <activity android:name="com.getstream.sdk.chat.view.activity.AttachmentActivity" />
+94-->[io.getstream:stream-chat-android-ui-common:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\ea23b1601ba04192f30d63bb17e3a643\transformed\jetified-stream-chat-android-ui-common-4.13.0\AndroidManifest.xml:13:9-92
+94-->[io.getstream:stream-chat-android-ui-common:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\ea23b1601ba04192f30d63bb17e3a643\transformed\jetified-stream-chat-android-ui-common-4.13.0\AndroidManifest.xml:13:19-89
+95
+96        <provider
+96-->[io.getstream:stream-chat-android-ui-common:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\ea23b1601ba04192f30d63bb17e3a643\transformed\jetified-stream-chat-android-ui-common-4.13.0\AndroidManifest.xml:15:9-23:20
+97            android:name="com.getstream.sdk.chat.StreamFileProvider"
+97-->[io.getstream:stream-chat-android-ui-common:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\ea23b1601ba04192f30d63bb17e3a643\transformed\jetified-stream-chat-android-ui-common-4.13.0\AndroidManifest.xml:16:13-69
+98            android:authorities="com.arvind.astreamchatapp.streamfileprovider"
+98-->[io.getstream:stream-chat-android-ui-common:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\ea23b1601ba04192f30d63bb17e3a643\transformed\jetified-stream-chat-android-ui-common-4.13.0\AndroidManifest.xml:17:13-70
+99            android:exported="false"
+99-->[io.getstream:stream-chat-android-ui-common:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\ea23b1601ba04192f30d63bb17e3a643\transformed\jetified-stream-chat-android-ui-common-4.13.0\AndroidManifest.xml:18:13-37
+100            android:grantUriPermissions="true" >
+100-->[io.getstream:stream-chat-android-ui-common:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\ea23b1601ba04192f30d63bb17e3a643\transformed\jetified-stream-chat-android-ui-common-4.13.0\AndroidManifest.xml:19:13-47
+101            <meta-data
+101-->[io.getstream:stream-chat-android-ui-common:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\ea23b1601ba04192f30d63bb17e3a643\transformed\jetified-stream-chat-android-ui-common-4.13.0\AndroidManifest.xml:20:13-22:60
+102                android:name="android.support.FILE_PROVIDER_PATHS"
+102-->[io.getstream:stream-chat-android-ui-common:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\ea23b1601ba04192f30d63bb17e3a643\transformed\jetified-stream-chat-android-ui-common-4.13.0\AndroidManifest.xml:21:17-67
+103                android:resource="@xml/stream_filepaths" />
+103-->[io.getstream:stream-chat-android-ui-common:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\ea23b1601ba04192f30d63bb17e3a643\transformed\jetified-stream-chat-android-ui-common-4.13.0\AndroidManifest.xml:22:17-57
+104        </provider>
+105
+106        <activity
+106-->[com.karumi:dexter:6.2.2] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\dd9b304a8b3fb850f0f8a7849ec654c3\transformed\jetified-dexter-6.2.2\AndroidManifest.xml:27:9-29:72
+107            android:name="com.karumi.dexter.DexterActivity"
+107-->[com.karumi:dexter:6.2.2] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\dd9b304a8b3fb850f0f8a7849ec654c3\transformed\jetified-dexter-6.2.2\AndroidManifest.xml:28:13-60
+108            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+108-->[com.karumi:dexter:6.2.2] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\dd9b304a8b3fb850f0f8a7849ec654c3\transformed\jetified-dexter-6.2.2\AndroidManifest.xml:29:13-69
+109
+110        <receiver
+110-->[io.getstream:stream-chat-android-client:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\4b80ca9a28e0211a4d1e72badda62556\transformed\jetified-stream-chat-android-client-4.13.0\AndroidManifest.xml:13:9-21:20
+111            android:name="io.getstream.chat.android.client.receivers.NotificationMessageReceiver"
+111-->[io.getstream:stream-chat-android-client:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\4b80ca9a28e0211a4d1e72badda62556\transformed\jetified-stream-chat-android-client-4.13.0\AndroidManifest.xml:14:13-98
+112            android:enabled="true"
+112-->[io.getstream:stream-chat-android-client:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\4b80ca9a28e0211a4d1e72badda62556\transformed\jetified-stream-chat-android-client-4.13.0\AndroidManifest.xml:15:13-35
+113            android:exported="false" >
+113-->[io.getstream:stream-chat-android-client:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\4b80ca9a28e0211a4d1e72badda62556\transformed\jetified-stream-chat-android-client-4.13.0\AndroidManifest.xml:16:13-37
+114            <intent-filter>
+114-->[io.getstream:stream-chat-android-client:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\4b80ca9a28e0211a4d1e72badda62556\transformed\jetified-stream-chat-android-client-4.13.0\AndroidManifest.xml:17:13-20:29
+115                <action android:name="com.getstream.sdk.chat.READ" />
+115-->[io.getstream:stream-chat-android-client:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\4b80ca9a28e0211a4d1e72badda62556\transformed\jetified-stream-chat-android-client-4.13.0\AndroidManifest.xml:18:17-70
+115-->[io.getstream:stream-chat-android-client:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\4b80ca9a28e0211a4d1e72badda62556\transformed\jetified-stream-chat-android-client-4.13.0\AndroidManifest.xml:18:25-67
+116                <action android:name="com.getstream.sdk.chat.REPLY" />
+116-->[io.getstream:stream-chat-android-client:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\4b80ca9a28e0211a4d1e72badda62556\transformed\jetified-stream-chat-android-client-4.13.0\AndroidManifest.xml:19:17-71
+116-->[io.getstream:stream-chat-android-client:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\4b80ca9a28e0211a4d1e72badda62556\transformed\jetified-stream-chat-android-client-4.13.0\AndroidManifest.xml:19:25-68
+117            </intent-filter>
+118        </receiver>
+119
+120        <service
+120-->[io.getstream:stream-chat-android-client:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\4b80ca9a28e0211a4d1e72badda62556\transformed\jetified-stream-chat-android-client-4.13.0\AndroidManifest.xml:23:9-29:19
+121            android:name="io.getstream.chat.android.client.notifications.ChatFirebaseMessagingService"
+121-->[io.getstream:stream-chat-android-client:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\4b80ca9a28e0211a4d1e72badda62556\transformed\jetified-stream-chat-android-client-4.13.0\AndroidManifest.xml:24:13-103
+122            android:exported="false" >
+122-->[io.getstream:stream-chat-android-client:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\4b80ca9a28e0211a4d1e72badda62556\transformed\jetified-stream-chat-android-client-4.13.0\AndroidManifest.xml:25:13-37
+123            <intent-filter android:priority="-1" >
+123-->[io.getstream:stream-chat-android-client:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\4b80ca9a28e0211a4d1e72badda62556\transformed\jetified-stream-chat-android-client-4.13.0\AndroidManifest.xml:26:13-28:29
+123-->[io.getstream:stream-chat-android-client:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\4b80ca9a28e0211a4d1e72badda62556\transformed\jetified-stream-chat-android-client-4.13.0\AndroidManifest.xml:26:28-49
+124                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+124-->[io.getstream:stream-chat-android-client:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\4b80ca9a28e0211a4d1e72badda62556\transformed\jetified-stream-chat-android-client-4.13.0\AndroidManifest.xml:27:17-78
+124-->[io.getstream:stream-chat-android-client:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\4b80ca9a28e0211a4d1e72badda62556\transformed\jetified-stream-chat-android-client-4.13.0\AndroidManifest.xml:27:25-75
+125            </intent-filter>
+126        </service>
+127
+128        <receiver
+128-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\2fc657eb11c1fcaf30c85f1df4de1f53\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:28:9-35:20
+129            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+129-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\2fc657eb11c1fcaf30c85f1df4de1f53\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:29:13-78
+130            android:exported="true"
+130-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\2fc657eb11c1fcaf30c85f1df4de1f53\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:30:13-36
+131            android:permission="com.google.android.c2dm.permission.SEND" >
+131-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\2fc657eb11c1fcaf30c85f1df4de1f53\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:31:13-73
+132            <intent-filter>
+132-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\2fc657eb11c1fcaf30c85f1df4de1f53\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:32:13-34:29
+133                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+133-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\2fc657eb11c1fcaf30c85f1df4de1f53\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:33:17-81
+133-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\2fc657eb11c1fcaf30c85f1df4de1f53\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:33:25-78
+134            </intent-filter>
+135        </receiver>
+136        <!--
+137             FirebaseMessagingService performs security checks at runtime,
+138             but set to not exported to explicitly avoid allowing another app to call it.
+139        -->
+140        <service
+140-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\2fc657eb11c1fcaf30c85f1df4de1f53\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:41:9-48:19
+141            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+141-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\2fc657eb11c1fcaf30c85f1df4de1f53\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:42:13-82
+142            android:directBootAware="true"
+142-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\2fc657eb11c1fcaf30c85f1df4de1f53\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:43:13-43
+143            android:exported="false" >
+143-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\2fc657eb11c1fcaf30c85f1df4de1f53\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:44:13-37
+144            <intent-filter android:priority="-500" >
+144-->[io.getstream:stream-chat-android-client:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\4b80ca9a28e0211a4d1e72badda62556\transformed\jetified-stream-chat-android-client-4.13.0\AndroidManifest.xml:26:13-28:29
+144-->[io.getstream:stream-chat-android-client:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\4b80ca9a28e0211a4d1e72badda62556\transformed\jetified-stream-chat-android-client-4.13.0\AndroidManifest.xml:26:28-49
+145                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+145-->[io.getstream:stream-chat-android-client:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\4b80ca9a28e0211a4d1e72badda62556\transformed\jetified-stream-chat-android-client-4.13.0\AndroidManifest.xml:27:17-78
+145-->[io.getstream:stream-chat-android-client:4.13.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\4b80ca9a28e0211a4d1e72badda62556\transformed\jetified-stream-chat-android-client-4.13.0\AndroidManifest.xml:27:25-75
+146            </intent-filter>
+147        </service>
+148        <service
+148-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\2fc657eb11c1fcaf30c85f1df4de1f53\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:49:9-55:19
+149            android:name="com.google.firebase.components.ComponentDiscoveryService"
+149-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\2fc657eb11c1fcaf30c85f1df4de1f53\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:50:13-84
+150            android:directBootAware="true"
+150-->[com.google.firebase:firebase-common:20.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\9481dff12dd39563ea51a29ac9cef32e\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+151            android:exported="false" >
+151-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\2fc657eb11c1fcaf30c85f1df4de1f53\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:51:13-37
+152            <meta-data
+152-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\2fc657eb11c1fcaf30c85f1df4de1f53\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:52:13-54:85
+153                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+153-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\2fc657eb11c1fcaf30c85f1df4de1f53\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:53:17-119
+154                android:value="com.google.firebase.components.ComponentRegistrar" />
+154-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\2fc657eb11c1fcaf30c85f1df4de1f53\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:54:17-82
+155            <meta-data
+155-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\5507fae1d891c8a7506b1c2e1b18b66d\transformed\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:28:13-30:85
+156                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+156-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\5507fae1d891c8a7506b1c2e1b18b66d\transformed\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:29:17-115
+157                android:value="com.google.firebase.components.ComponentRegistrar" />
+157-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\5507fae1d891c8a7506b1c2e1b18b66d\transformed\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:30:17-82
+158            <meta-data
+158-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\faac57b1b0bce8b3185fe51201e7a00c\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
+159                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+159-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\faac57b1b0bce8b3185fe51201e7a00c\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
+160                android:value="com.google.firebase.components.ComponentRegistrar" />
+160-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\faac57b1b0bce8b3185fe51201e7a00c\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
+161        </service>
+162
+163        <provider
+163-->[com.google.firebase:firebase-common:20.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\9481dff12dd39563ea51a29ac9cef32e\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+164            android:name="com.google.firebase.provider.FirebaseInitProvider"
+164-->[com.google.firebase:firebase-common:20.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\9481dff12dd39563ea51a29ac9cef32e\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+165            android:authorities="com.arvind.astreamchatapp.firebaseinitprovider"
+165-->[com.google.firebase:firebase-common:20.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\9481dff12dd39563ea51a29ac9cef32e\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+166            android:directBootAware="true"
+166-->[com.google.firebase:firebase-common:20.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\9481dff12dd39563ea51a29ac9cef32e\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+167            android:exported="false"
+167-->[com.google.firebase:firebase-common:20.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\9481dff12dd39563ea51a29ac9cef32e\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+168            android:initOrder="100" />
+168-->[com.google.firebase:firebase-common:20.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\9481dff12dd39563ea51a29ac9cef32e\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+169
+170        <meta-data
+170-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\ac48986ceda2413a9b884b63e2709bba\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+171            android:name="com.google.android.gms.version"
+171-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\ac48986ceda2413a9b884b63e2709bba\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+172            android:value="@integer/google_play_services_version" />
+172-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\ac48986ceda2413a9b884b63e2709bba\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+173
+174        <uses-library
+174-->[androidx.window:window:1.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\7af530e9dea5dd052a0ec32b47b56555\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+175            android:name="androidx.window.extensions"
+175-->[androidx.window:window:1.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\7af530e9dea5dd052a0ec32b47b56555\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+176            android:required="false" />
+176-->[androidx.window:window:1.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\7af530e9dea5dd052a0ec32b47b56555\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+177        <uses-library
+177-->[androidx.window:window:1.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\7af530e9dea5dd052a0ec32b47b56555\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+178            android:name="androidx.window.sidecar"
+178-->[androidx.window:window:1.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\7af530e9dea5dd052a0ec32b47b56555\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+179            android:required="false" />
+179-->[androidx.window:window:1.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\7af530e9dea5dd052a0ec32b47b56555\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+180
+181        <provider
+181-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:31:9-37:35
+182            android:name="androidx.work.impl.WorkManagerInitializer"
+182-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:32:13-69
+183            android:authorities="com.arvind.astreamchatapp.workmanager-init"
+183-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:33:13-68
+184            android:directBootAware="false"
+184-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:34:13-44
+185            android:exported="false"
+185-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:35:13-37
+186            android:multiprocess="true" />
+186-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:36:13-40
+187
+188        <service
+188-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:39:9-44:35
+189            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+189-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:40:13-88
+190            android:directBootAware="false"
+190-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:41:13-44
+191            android:enabled="@bool/enable_system_alarm_service_default"
+191-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:42:13-72
+192            android:exported="false" />
+192-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:43:13-37
+193        <service
+193-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:45:9-51:35
+194            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+194-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:46:13-84
+195            android:directBootAware="false"
+195-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:47:13-44
+196            android:enabled="@bool/enable_system_job_service_default"
+196-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:48:13-70
+197            android:exported="true"
+197-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:49:13-36
+198            android:permission="android.permission.BIND_JOB_SERVICE" />
+198-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:50:13-69
+199        <service
+199-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:52:9-57:35
+200            android:name="androidx.work.impl.foreground.SystemForegroundService"
+200-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:53:13-81
+201            android:directBootAware="false"
+201-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:54:13-44
+202            android:enabled="@bool/enable_system_foreground_service_default"
+202-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:55:13-77
+203            android:exported="false" />
+203-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:56:13-37
+204
+205        <receiver
+205-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:59:9-64:35
+206            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+206-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:60:13-88
+207            android:directBootAware="false"
+207-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:61:13-44
+208            android:enabled="true"
+208-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:62:13-35
+209            android:exported="false" />
+209-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:63:13-37
+210        <receiver
+210-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:65:9-75:20
+211            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+211-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:66:13-106
+212            android:directBootAware="false"
+212-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:67:13-44
+213            android:enabled="false"
+213-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:68:13-36
+214            android:exported="false" >
+214-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:69:13-37
+215            <intent-filter>
+215-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:71:13-74:29
+216                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+216-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:72:17-87
+216-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:72:25-84
+217                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+217-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:73:17-90
+217-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:73:25-87
+218            </intent-filter>
+219        </receiver>
+220        <receiver
+220-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:76:9-86:20
+221            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+221-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:77:13-104
+222            android:directBootAware="false"
+222-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:78:13-44
+223            android:enabled="false"
+223-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:79:13-36
+224            android:exported="false" >
+224-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:80:13-37
+225            <intent-filter>
+225-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:82:13-85:29
+226                <action android:name="android.intent.action.BATTERY_OKAY" />
+226-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:83:17-77
+226-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:83:25-74
+227                <action android:name="android.intent.action.BATTERY_LOW" />
+227-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:84:17-76
+227-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:84:25-73
+228            </intent-filter>
+229        </receiver>
+230        <receiver
+230-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:87:9-97:20
+231            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+231-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:88:13-104
+232            android:directBootAware="false"
+232-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:89:13-44
+233            android:enabled="false"
+233-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:90:13-36
+234            android:exported="false" >
+234-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:91:13-37
+235            <intent-filter>
+235-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:93:13-96:29
+236                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+236-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:94:17-83
+236-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:94:25-80
+237                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+237-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:95:17-82
+237-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:95:25-79
+238            </intent-filter>
+239        </receiver>
+240        <receiver
+240-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:98:9-107:20
+241            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+241-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:99:13-103
+242            android:directBootAware="false"
+242-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:100:13-44
+243            android:enabled="false"
+243-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:101:13-36
+244            android:exported="false" >
+244-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:102:13-37
+245            <intent-filter>
+245-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:104:13-106:29
+246                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+246-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:105:17-79
+246-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:105:25-76
+247            </intent-filter>
+248        </receiver>
+249        <receiver
+249-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:108:9-119:20
+250            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+250-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:109:13-88
+251            android:directBootAware="false"
+251-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:110:13-44
+252            android:enabled="false"
+252-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:111:13-36
+253            android:exported="false" >
+253-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:112:13-37
+254            <intent-filter>
+254-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:114:13-118:29
+255                <action android:name="android.intent.action.BOOT_COMPLETED" />
+255-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:115:17-79
+255-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:115:25-76
+256                <action android:name="android.intent.action.TIME_SET" />
+256-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:116:17-73
+256-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:116:25-70
+257                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+257-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:117:17-81
+257-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:117:25-78
+258            </intent-filter>
+259        </receiver>
+260        <receiver
+260-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:120:9-129:20
+261            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+261-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:121:13-99
+262            android:directBootAware="false"
+262-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:122:13-44
+263            android:enabled="@bool/enable_system_alarm_service_default"
+263-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:123:13-72
+264            android:exported="false" >
+264-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:124:13-37
+265            <intent-filter>
+265-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:126:13-128:29
+266                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+266-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:127:17-98
+266-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:127:25-95
+267            </intent-filter>
+268        </receiver>
+269        <receiver
+269-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:130:9-140:20
+270            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+270-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:131:13-78
+271            android:directBootAware="false"
+271-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:132:13-44
+272            android:enabled="true"
+272-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:133:13-35
+273            android:exported="true"
+273-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:134:13-36
+274            android:permission="android.permission.DUMP" >
+274-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:135:13-57
+275            <intent-filter>
+275-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:137:13-139:29
+276                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+276-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:138:17-88
+276-->[androidx.work:work-runtime:2.5.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\a708c1dc0913e9819c3fadbf7a12a94e\transformed\work-runtime-2.5.0\AndroidManifest.xml:138:25-85
+277            </intent-filter>
+278        </receiver>
+279
+280        <service
+280-->[androidx.room:room-runtime:2.3.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\48137ca5afb02e72176b3e83140a989a\transformed\room-runtime-2.3.0\AndroidManifest.xml:25:9-28:40
+281            android:name="androidx.room.MultiInstanceInvalidationService"
+281-->[androidx.room:room-runtime:2.3.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\48137ca5afb02e72176b3e83140a989a\transformed\room-runtime-2.3.0\AndroidManifest.xml:26:13-74
+282            android:directBootAware="true"
+282-->[androidx.room:room-runtime:2.3.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\48137ca5afb02e72176b3e83140a989a\transformed\room-runtime-2.3.0\AndroidManifest.xml:27:13-43
+283            android:exported="false" />
+283-->[androidx.room:room-runtime:2.3.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\48137ca5afb02e72176b3e83140a989a\transformed\room-runtime-2.3.0\AndroidManifest.xml:28:13-37
+284        <service
+284-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\eb92c0d95e2d0af963b33bdf764d7337\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:29:9-35:19
+285            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+285-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\eb92c0d95e2d0af963b33bdf764d7337\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:30:13-103
+286            android:exported="false" >
+286-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\eb92c0d95e2d0af963b33bdf764d7337\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:31:13-37
+287            <meta-data
+287-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\eb92c0d95e2d0af963b33bdf764d7337\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:32:13-34:39
+288                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+288-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\eb92c0d95e2d0af963b33bdf764d7337\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:33:17-94
+289                android:value="cct" />
+289-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\eb92c0d95e2d0af963b33bdf764d7337\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:34:17-36
+290        </service>
+291        <service
+291-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\1b5589c226c807c596878d054397f5a3\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:26:9-30:19
+292            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+292-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\1b5589c226c807c596878d054397f5a3\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:27:13-117
+293            android:exported="false"
+293-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\1b5589c226c807c596878d054397f5a3\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:28:13-37
+294            android:permission="android.permission.BIND_JOB_SERVICE" >
+294-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\1b5589c226c807c596878d054397f5a3\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:29:13-69
+295        </service>
+296
+297        <receiver
+297-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\1b5589c226c807c596878d054397f5a3\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:32:9-34:40
+298            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+298-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\1b5589c226c807c596878d054397f5a3\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:33:13-132
+299            android:exported="false" />
+299-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\HP\AndroidStudioProjects\Fresh_Basket-master\caches\transforms-3\1b5589c226c807c596878d054397f5a3\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:34:13-37
+300    </application>
+301
+302</manifest>

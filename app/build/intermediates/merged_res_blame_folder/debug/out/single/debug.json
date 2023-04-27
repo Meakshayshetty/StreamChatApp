@@ -1,0 +1,178 @@
+[
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-merged_res-63:\\layout_user_row_layout.xml.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-main-65:\\layout\\user_row_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-merged_res-63:\\drawable_ic_baseline_exit_to_app_24.xml.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-main-65:\\drawable\\ic_baseline_exit_to_app_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-merged_res-63:\\anim_from_left.xml.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-main-65:\\anim\\from_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-merged_res-63:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-main-65:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-merged_res-63:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-main-65:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-merged_res-63:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-main-65:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-merged_res-63:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-main-65:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-merged_res-63:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-main-65:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-merged_res-63:\\menu_users_menu.xml.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-main-65:\\menu\\users_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-merged_res-63:\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-main-65:\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-merged_res-63:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-main-65:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-merged_res-63:\\layout_fragment_channel.xml.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-main-65:\\layout\\fragment_channel.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-merged_res-63:\\anim_from_right.xml.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-main-65:\\anim\\from_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-merged_res-63:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-main-65:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.arvind.astreamchatapp-merged_res-63:/layout_fragment_login.xml.flat",
+        "source": "com.arvind.astreamchatapp-main-65:/layout/fragment_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-merged_res-63:\\layout_fragment_chat.xml.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-main-65:\\layout\\fragment_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-merged_res-63:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-main-65:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-merged_res-63:\\menu_menu.xml.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-main-65:\\menu\\menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-merged_res-63:\\menu_drawer_menu.xml.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-main-65:\\menu\\drawer_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-merged_res-63:\\anim_to_left.xml.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-main-65:\\anim\\to_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-merged_res-63:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-main-65:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-merged_res-63:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-main-65:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-merged_res-63:\\anim_from_bottom.xml.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-main-65:\\anim\\from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-merged_res-63:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-main-65:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-merged_res-63:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-main-65:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-merged_res-63:\\drawable_ic_baseline_arrow_back_24.xml.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-main-65:\\drawable\\ic_baseline_arrow_back_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-merged_res-63:\\anim_to_right.xml.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-main-65:\\anim\\to_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-merged_res-63:\\drawable_ic_add.xml.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-main-65:\\drawable\\ic_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-merged_res-63:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-main-65:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-merged_res-63:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-pngs-58:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-merged_res-63:\\drawable_ic_baseline_settings_24.xml.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-main-65:\\drawable\\ic_baseline_settings_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-merged_res-63:\\anim_to_bottom.xml.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-main-65:\\anim\\to_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-merged_res-63:\\drawable_ic_channels.xml.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-main-65:\\drawable\\ic_channels.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-merged_res-63:\\drawable_ic_baseline_add_24.xml.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-main-65:\\drawable\\ic_baseline_add_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-merged_res-63:\\anim_from_top.xml.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-main-65:\\anim\\from_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-merged_res-63:\\anim_to_top.xml.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-main-65:\\anim\\to_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-merged_res-63:\\drawable_ic_baseline_search_24.xml.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-main-65:\\drawable\\ic_baseline_search_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-merged_res-63:\\layout_fragment_users.xml.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-main-65:\\layout\\fragment_users.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-merged_res-63:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-main-65:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-merged_res-63:\\layout_nav_drawer_header.xml.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-main-65:\\layout\\nav_drawer_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-merged_res-63:\\layout_fragment_login.xml.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-main-65:\\layout\\fragment_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-merged_res-63:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-main-65:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-merged_res-63:\\drawable_ic_baseline_group_24.xml.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-main-65:\\drawable\\ic_baseline_group_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-merged_res-63:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\daemon\\7.4\\com.arvind.astreamchatapp-main-65:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    }
+]

@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.arvind.astreamchatapp-mergeDebugResources-61:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\caches\\transforms-3\\6f860972fc9fd93a5eb43bce44fe1d2b\\transformed\\appcompat-1.5.1\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\HP\\AndroidStudioProjects\\Fresh_Basket-master\\caches\\transforms-3\\9688fd0f4cdd4253a8cc30277f615ba3\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}
